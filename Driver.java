@@ -25,7 +25,7 @@ public class Driver{
     long totalInsertSLL = 0;
     long totalBubbleDLL = 0;
     long totalInsertDLL = 0;
-/*
+
     System.out.println("__________________________________________________________________");
     System.out.println("                    Array Testing                                 ");
 
@@ -74,6 +74,7 @@ public class Driver{
     System.out.println();
     System.out.println();
 
+/*
     System.out.println("__________________________________________________________________");
     System.out.println("                      SLL Testing                                 ");
 
@@ -119,7 +120,7 @@ public class Driver{
     System.out.println("__________________________________________________________________");
     System.out.println("                      SLL Testing End                             ");
 
-    */
+    /*
 
 
     System.out.println("__________________________________________________________________");
@@ -166,6 +167,6 @@ public class Driver{
 
     System.out.println("__________________________________________________________________");
     System.out.println("                      SLL Testing End                             ");
-
+*/
   }
 }

@@ -1,0 +1,62 @@
+__________________________________________________________________
+                    Array Testing
+List bubblesort 1
+Bubble Sort time is 5 Milliseconds
+List bubblesort 2
+Bubble Sort time is 3 Milliseconds
+List bubblesort 3
+Bubble Sort time is 1 Milliseconds
+List bubblesort 4
+Bubble Sort time is 1 Milliseconds
+List bubblesort 5
+Bubble Sort time is 0 Milliseconds
+List bubblesort 6
+Bubble Sort time is 1 Milliseconds
+List bubblesort 7
+Bubble Sort time is 0 Milliseconds
+List bubblesort 8
+Bubble Sort time is 0 Milliseconds
+List bubblesort 9
+Bubble Sort time is 0 Milliseconds
+List bubblesort 10
+Bubble Sort time is 0 Milliseconds
+
+
+List insertionsort 1
+Insertion Sort time is 21707 Milliseconds
+
+List insertionsort 2
+Insertion Sort time is 18949 Milliseconds
+
+List insertionsort 3
+Insertion Sort time is 21033 Milliseconds
+
+List insertionsort 4
+Insertion Sort time is 20710 Milliseconds
+
+List insertionsort 5
+Insertion Sort time is 20416 Milliseconds
+
+List insertionsort 6
+Insertion Sort time is 20279 Milliseconds
+
+List insertionsort 7
+Insertion Sort time is 20557 Milliseconds
+
+List insertionsort 8
+Insertion Sort time is 20857 Milliseconds
+
+List insertionsort 9
+Insertion Sort time is 22653 Milliseconds
+
+List insertionsort 10
+Insertion Sort time is 20664 Milliseconds
+
+
+
+
+The average time for all 10 bubblesorts for a an array is 1
+The average time for all 10 insertionsorts for a an array is 20782
+
+__________________________________________________________________
+                    Array Testing End

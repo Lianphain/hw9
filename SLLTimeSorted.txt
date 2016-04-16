@@ -1,0 +1,62 @@
+__________________________________________________________________
+                      SLL Testing
+SLL bubblesort 1
+Bubble Sort time is 44077 Milliseconds
+SLL bubblesort 2
+Bubble Sort time is 41945 Milliseconds
+SLL bubblesort 3
+Bubble Sort time is 40860 Milliseconds
+SLL bubblesort 4
+Bubble Sort time is 39716 Milliseconds
+SLL bubblesort 5
+Bubble Sort time is 39202 Milliseconds
+SLL bubblesort 6
+Bubble Sort time is 39693 Milliseconds
+SLL bubblesort 7
+Bubble Sort time is 38751 Milliseconds
+SLL bubblesort 8
+Bubble Sort time is 38751 Milliseconds
+SLL bubblesort 9
+Bubble Sort time is 38923 Milliseconds
+SLL bubblesort 10
+Bubble Sort time is 38702 Milliseconds
+
+
+SLL insertionsort 1
+Insertion Sort time is 29876 Milliseconds
+
+SLL insertionsort 2
+Insertion Sort time is 31558 Milliseconds
+
+SLL insertionsort 3
+Insertion Sort time is 30311 Milliseconds
+
+SLL insertionsort 4
+Insertion Sort time is 32118 Milliseconds
+
+SLL insertionsort 5
+Insertion Sort time is 31040 Milliseconds
+
+SLL insertionsort 6
+Insertion Sort time is 32559 Milliseconds
+
+SLL insertionsort 7
+Insertion Sort time is 32688 Milliseconds
+
+SLL insertionsort 8
+Insertion Sort time is 32356 Milliseconds
+
+SLL insertionsort 9
+Insertion Sort time is 31603 Milliseconds
+
+SLL insertionsort 10
+Insertion Sort time is 30508 Milliseconds
+
+
+
+
+The average time for all 10 bubblesorts for a an array is 40062
+The average time for all 10 insertionsorts for a an array is 31461
+
+__________________________________________________________________
+                      SLL Testing End
