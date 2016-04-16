@@ -86,7 +86,7 @@ public class SLL<E extends Comparable<E>> {
   public void addFile(String filename){
     try{
       Scanner fr = new Scanner(new FileReader(filename));
-      for(int i = 0; i <= 50000; i++){
+      for(int i = 0; i <= 2000; i++){
         add((E) fr.next());
       }
     }
@@ -111,7 +111,6 @@ public class SLL<E extends Comparable<E>> {
     for (int i = 1; i < size(); i++) {
       for(int j = i ; j > 0 ; j--){
         if(get(j).compareTo(get(j-1)) < 0){
-          System.out.println(get(j));
           swapNode(getNode(j), getNode(j-1));
         }
       }
@@ -137,7 +136,6 @@ public class SLL<E extends Comparable<E>> {
       check = false;
       for(int i = 0; i < size()-1; i++){
         if(get(i).compareTo(get(i+1)) > 0){
-          System.out.println(get(i));
           swapNode(getNode(i+1), getNode(i));
           check = true;
         }

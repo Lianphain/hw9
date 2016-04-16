@@ -87,7 +87,7 @@ public class DLL<E extends Comparable<E>> {
   public void addFile(String filename){
     try{
       Scanner fr = new Scanner(new FileReader(filename));
-      for(int i = 0; i <= 50000; i++){
+      for(int i = 0; i <= 2000; i++){
         add((E) fr.next());
       }
     }
@@ -109,17 +109,10 @@ public class DLL<E extends Comparable<E>> {
   ********************************************************************/
 
   public void insertionSort(){
-    for (int i = 1; i < size(); i++) {
-      System.out.println(i + "in between for's");
+    for(int i = 1; i < size(); i++){
       for(int j = i ; j > 0 ; j--){
-
-        System.out.println(i + "After second for");
-        System.out.println(size() + "Size");
-        System.out.println("Before if " + get(j));
         if(get(j).compareTo(get(j-1)) < 0){
-          System.out.println(get(j));
           swapNode(getNode(j), getNode(j-1));
-        //  System.out.println(toString());
         }
       }
     }
@@ -138,13 +131,11 @@ public class DLL<E extends Comparable<E>> {
   ********************************************************************/
 
   public void bubbleSort(){
-    int temp;
     boolean check = true;
     while(check){
       check = false;
       for(int i = 0; i < size()-1; i++){
         if(get(i).compareTo(get(i+1)) > 0){
-          System.out.println(get(i));
           swapNode(getNode(i+1), getNode(i));
           check = true;
         }
@@ -173,6 +164,17 @@ public class DLL<E extends Comparable<E>> {
       replace.setPrevious(target);
       target.setPrevious(null);
       head = target;
+    }
+    else if(target == tail){
+      replace.setNext(target.getNext());
+      target.setPrevious(replace.getPrevious());
+      replace.setPrevious(target);
+      target.setNext(replace);
+      target.getPrevious().setNext(target);
+      if(replace.getNext() != null){
+        replace.getNext().setPrevious(replace);
+      }
+      tail = replace;
     }
     else{
       replace.setNext(target.getNext());
